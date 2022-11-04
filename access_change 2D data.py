@@ -1,7 +1,6 @@
 import numpy as np
 
-data = np.array([[3, 6, 5, 8, 11], [4, 7, 10, 12, 14], [4, 6, 8, 1, 0]])
-a = data
+a = np.array([[3, 6, 5, 8, 11], [4, 7, 10, 12, 14], [4, 6, 8, 1, 0]])
 print("Print the data:\n",a)
 
 # get specific element
