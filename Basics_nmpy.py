@@ -34,3 +34,8 @@ print("size of c: ", c.itemsize)
 print("\nTotal size of a: ", a.nbytes)
 print("Total size of b: ", b.nbytes)
 print("Total size of c: ", c.nbytes)
+
+# copying array
+print("\nCopying d from b")
+d = b.copy()
+print(d)
